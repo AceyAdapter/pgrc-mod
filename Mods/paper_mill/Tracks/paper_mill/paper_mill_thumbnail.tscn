@@ -1,4 +1,4 @@
-[gd_scene load_steps=272 format=3 uid="uid://debj0mn5tcivu"]
+[gd_scene load_steps=274 format=3 uid="uid://debj0mn5tcivu"]
 
 [ext_resource type="Script" path="res://Mods/Scripts/ModTrackThumbnail.gd" id="1_xhvmg"]
 [ext_resource type="Texture2D" uid="uid://cy84ispovfcgf" path="res://Mods/paper_mill/Tracks/paper_mill/assets/paper_mill_skatepark_0.jpg" id="2_ddr5n"]
@@ -28,6 +28,8 @@
 [ext_resource type="Texture2D" uid="uid://crqyjwybos266" path="res://Mods/paper_mill/Tracks/paper_mill/assets/paper_mill_skatepark_24.jpg" id="26_qg032"]
 [ext_resource type="Texture2D" uid="uid://dyddrh4vd0a2x" path="res://Mods/paper_mill/Tracks/paper_mill/assets/paper_mill_skatepark_25.jpg" id="27_4rm8f"]
 [ext_resource type="Texture2D" uid="uid://8oma6n0ppcip" path="res://Mods/paper_mill/Tracks/paper_mill/assets/paper_mill_skatepark_26.jpg" id="28_d8qfk"]
+[ext_resource type="PackedScene" uid="uid://cxmqh8d5hw8m" path="res://Mods/Placeholders/Models/arrow-barrier-one-way.glb" id="29_hyd0l"]
+[ext_resource type="PackedScene" uid="uid://kxc8kppnmhm2" path="res://Mods/Placeholders/Models/railing-barrier-banner-1.glb" id="30_cu8kb"]
 
 [sub_resource type="CylinderMesh" id="CylinderMesh_uum8v"]
 flip_faces = true
@@ -4143,6 +4145,24 @@ skeleton = NodePath("")
 mesh = SubResource("ArrayMesh_4fqr4")
 skeleton = NodePath("")
 
+[node name="arrow-barrier-one-way" parent="RootNode" instance=ExtResource("29_hyd0l")]
+transform = Transform3D(21.3337, 0, 97.6978, 0, 100, 0, -97.6978, 0, 21.3337, -1605.05, -2.87305, -528.543)
+
+[node name="arrow-barrier-one-way2" parent="RootNode" instance=ExtResource("29_hyd0l")]
+transform = Transform3D(-6.83634, 0, 99.766, 0, 100, 0, -99.766, 0, -6.83634, -1619.6, -2.87305, 98.3469)
+
+[node name="arrow-barrier-one-way3" parent="RootNode" instance=ExtResource("29_hyd0l")]
+transform = Transform3D(-72.9601, 0, 68.3872, 0, 100, 0, -68.3872, 0, -72.9601, 3259.1, 266.23, -808.871)
+
+[node name="arrow-barrier-one-way4" parent="RootNode" instance=ExtResource("29_hyd0l")]
+transform = Transform3D(97.9931, 0, -19.9334, 0, 100, 0, 19.9334, 0, 97.9931, 2622.56, -4.75612, 1049.85)
+
+[node name="arrow-barrier-one-way5" parent="RootNode" instance=ExtResource("29_hyd0l")]
+transform = Transform3D(-68.5754, 0, -72.7832, 0, 100, 0, 72.7832, 0, -68.5754, 487.806, 397.206, 743.984)
+
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 0.62852, 0.777794, 0, -0.777794, 0.62852, 0, 9.48312, 3.85274)
 light_energy = 2.0
+
+[node name="railing-barrier-banner-1" parent="." instance=ExtResource("30_cu8kb")]
+transform = Transform3D(0.2, 0, 0, 0, 0.2, 0, 0, 0, 0.2, 2.86151, 0.808018, 2.0866)
