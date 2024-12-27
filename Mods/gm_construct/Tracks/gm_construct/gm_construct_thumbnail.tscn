@@ -21,5 +21,5 @@ mesh = SubResource("CylinderMesh_uum8v")
 transform = Transform3D(0.15, 0, 0, 0, -6.55671e-09, 0.15, 0, -0.15, -6.55671e-09, 3.33166, 0, 0)
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="Node3D"]
-transform = Transform3D(6.66667, 0, 0, 0, 6.66667, 0, 0, 0, 6.66667, -25.685, -3.80676e-06, 87.0885)
+transform = Transform3D(6.66667, 0, 0, 0, 6.20869, -2.42829, 0, 2.42829, 6.20869, -25.685, -3.80676e-06, 87.0885)
 light_energy = 2.0
