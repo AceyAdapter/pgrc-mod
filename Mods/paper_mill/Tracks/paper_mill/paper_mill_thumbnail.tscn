@@ -4142,3 +4142,7 @@ skeleton = NodePath("")
 [node name="Rails_RustyMetalBlue_0" type="MeshInstance3D" parent="RootNode/Rails"]
 mesh = SubResource("ArrayMesh_4fqr4")
 skeleton = NodePath("")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.62852, 0.777794, 0, -0.777794, 0.62852, 0, 9.48312, 3.85274)
+light_energy = 2.0
