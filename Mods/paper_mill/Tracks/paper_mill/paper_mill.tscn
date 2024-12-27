@@ -4319,7 +4319,7 @@ mesh = SubResource("BoxMesh_yaud5")
 size = Vector3(12.815, 13.145, 103.955)
 
 [node name="trigger3" parent="OutOfBounds" instance=ExtResource("8_nfmkb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 78, 6, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 80, 6, 0)
 mesh = SubResource("BoxMesh_lu5bv")
 size = Vector3(12.815, 13.145, 103.955)
 
